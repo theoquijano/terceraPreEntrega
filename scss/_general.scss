@@ -22,8 +22,9 @@ ul{
                 color: black;
             }
         }
-    }
+    }  
 }
+
 .sectionStyle{
     @include box(flex, 20px);
     align-items: center; 
@@ -51,7 +52,7 @@ ul{
 }
 footer{
     background: whitesmoke;
-    .footerStyle{
+    .footerStyle {
         max-width: 1200px; 
         margin: 0 auto; 
         padding: 20px;
