@@ -1,0 +1,6 @@
+@import "base";
+@mixin box ($display, $padding){
+    display: $display;
+    padding: $padding;
+}
+@import "general";

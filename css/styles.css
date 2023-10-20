@@ -1,0 +1,76 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.estiloNav {
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(37, 37, 37);
+  color: white;
+}
+.estiloNav .tituloNav {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+ul {
+  display: flex;
+  padding: 0px;
+  list-style-type: none;
+}
+ul li {
+  margin-right: 50px;
+}
+ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+ul li a:hover {
+  color: black;
+}
+
+.sectionStyle {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  font-size: 150%;
+}
+.sectionStyle .parrafoStyle {
+  -ms-flex-align: center;
+  padding: 20px;
+}
+.sectionStyle .parrafoStyle span {
+  font-weight: bold;
+}
+
+.sectionForm {
+  background-color: rgb(37, 37, 37);
+  display: flex;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.sectionForm .formStyle {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+footer {
+  background: whitesmoke;
+}
+footer .footerStyle {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+/*# sourceMappingURL=styles.css.map */
