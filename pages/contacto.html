@@ -22,8 +22,8 @@
             </ul>
         </nav>
     </header>
-    <main class="parrafoStyle">
-        <div class="sectionStyle footerStyle">
+    <main class="sectionForm">
+        <div class="formStyle">
             <h2>CONTACTATE CON NOSOTROS!</h2>
             <form action="" method="get" enctype="text/plain">
                 <fieldset>
@@ -35,11 +35,23 @@
                     <input type="email" id="email" name="email">
                 </fieldset>
                 <fieldset>
-                    <label for="mensajeusuario">Nombre del profesor/a</label>
-                    <textarea name="mensajeusuario" id="mensajeusuario" cols="30" rows="10" required></textarea>
+                    <legend>ELEGIR PROFESOR/a</legend>
+                    <div>Agustin</div>
+                    <input type="radio" name="profesor" value="agustin">
+                    <div>Diego</div>
+                    <input type="radio" name="profesor" value="diego">
+                    <div>Christian</div>
+                    <input type="radio" name="profesor" value="christian">
+                    <div>Melissa</div>
+                    <input type="radio" name="profesor" value="melissa">
+                    </select>
                 </fieldset>
-                <input type="submit" value="Enviar">
-                    <input type="reset" value="borrar">
+                    <div>
+                        <input type="submit" value="Enviar">
+                    </div>
+        </div>
+        <div>
+            <a id="boton" href="../pages/profesores.html">volver</a>
         </div>
     </main>
     <footer>

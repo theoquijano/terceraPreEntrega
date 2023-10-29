@@ -49,6 +49,17 @@ ul{
         border-radius: 5px;
         text-align: center;
     }
+#boton{
+    background-color: black; /* Cambia el color de fondo del botón */
+    color: white; /* Cambia el color del texto del botón */
+    padding: 10px 20px; /* Ajusta el relleno (padding) para cambiar el tamaño del botón */
+    border: none; /* Elimina el borde del botón */
+    border-radius: 5px; /* Agrega esquinas redondeadas al botón */
+    display: block;
+      #boton:hover {
+        background-color: #0056b3; /* Cambia el color de fondo cuando pasas el ratón sobre el botón */
+      }
+}
 }
 footer{
     background: whitesmoke;
