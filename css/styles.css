@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@200&display=swap");
 * {
   margin: 0;
@@ -29,11 +28,24 @@ ul li {
 }
 ul li a {
   text-decoration: none;
-  color: #fff;
+  color: white;
   font-weight: bold;
 }
 ul li a:hover {
   color: black;
+}
+
+.logoNav {
+  list-style-type: none;
+}
+.logoNav a {
+  text-decoration: none;
+  color: white;
+  font-family: "Gill Sans";
+  font-weight: bold;
+}
+.logoNav a:hover {
+  color: white;
 }
 
 .sectionStyle {
@@ -49,6 +61,16 @@ ul li a:hover {
 .sectionStyle .parrafoStyle span {
   font-weight: bold;
 }
+.sectionStyle .sedeStyle {
+  display: flex;
+  padding: 20px;
+  align-items: center;
+  font-size: 150%;
+}
+.sectionStyle .sedeStyle iframe {
+  padding: 20px;
+  margin-left: 20px;
+}
 
 .sectionForm {
   background-color: rgb(37, 37, 37);
@@ -63,17 +85,6 @@ ul li a:hover {
   padding: 20px;
   border-radius: 5px;
   text-align: center;
-}
-.sectionForm #boton {
-  background-color: black; /* Cambia el color de fondo del botón */
-  color: white; /* Cambia el color del texto del botón */
-  padding: 10px 20px; /* Ajusta el relleno (padding) para cambiar el tamaño del botón */
-  border: none; /* Elimina el borde del botón */
-  border-radius: 5px; /* Agrega esquinas redondeadas al botón */
-  display: block;
-}
-.sectionForm #boton #boton:hover {
-  background-color: #0056b3; /* Cambia el color de fondo cuando pasas el ratón sobre el botón */
 }
 
 footer {

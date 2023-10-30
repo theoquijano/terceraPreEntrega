@@ -16,7 +16,7 @@ ul{
         margin-right: 50px;
         a{
             text-decoration: none; 
-            color: #fff;
+            color: $colorTexto;
             font-weight: bold;
             &:hover{
                 color: black;
@@ -24,7 +24,18 @@ ul{
         }
     }  
 }
-
+.logoNav{
+    list-style-type: none;
+    a{
+        text-decoration: none;
+        color: $colorTexto;
+        font-family: 'Gill Sans';
+        font-weight: bold;
+        &:hover{
+            color: $colorTexto;
+        }
+    }
+}
 .sectionStyle{
     @include box(flex, 20px);
     align-items: center; 
@@ -36,6 +47,15 @@ ul{
             font-weight: bold;
         }
     }
+.sedeStyle{
+    @include box(flex, 20px);
+    align-items: center; 
+    font-size: 150%;
+    iframe{
+        padding: 20px;
+        margin-left: 20px;
+    }
+}
 }        
 .sectionForm{
     background-color: rgb(37, 37, 37);
@@ -44,22 +64,11 @@ ul{
     align-items: center;
     height: 100vh;
     .formStyle{
-        background-color: white;
+        background-color: $colorTexto;
         padding: 20px;
         border-radius: 5px;
         text-align: center;
     }
-#boton{
-    background-color: black; /* Cambia el color de fondo del botón */
-    color: white; /* Cambia el color del texto del botón */
-    padding: 10px 20px; /* Ajusta el relleno (padding) para cambiar el tamaño del botón */
-    border: none; /* Elimina el borde del botón */
-    border-radius: 5px; /* Agrega esquinas redondeadas al botón */
-    display: block;
-      #boton:hover {
-        background-color: #0056b3; /* Cambia el color de fondo cuando pasas el ratón sobre el botón */
-      }
-}
 }
 footer{
     background: whitesmoke;
