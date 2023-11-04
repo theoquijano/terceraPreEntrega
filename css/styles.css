@@ -35,6 +35,39 @@ ul li a:hover {
   color: black;
 }
 
+@media screen and (max-width: 768px) {
+  ul {
+    flex-direction: column;
+    align-items: end;
+    top: 0;
+    right: 0;
+    padding: 0px;
+  }
+  .sectionStyle {
+    display: flex;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    font-size: 150%;
+  }
+  .sectionStyle div img {
+    width: 100%;
+  }
+  .sectionStyle .parrafoStyle {
+    -ms-flex-align: center;
+    padding: 20px;
+  }
+  .sectionStyle .parrafoStyle span {
+    font-weight: bold;
+  }
+  .sedeStyle {
+    flex-direction: column;
+    align-items: center;
+  }
+  .sedeStyle iframe {
+    width: 100%;
+  }
+}
 .logoNav {
   list-style-type: none;
 }
@@ -61,13 +94,14 @@ ul li a:hover {
 .sectionStyle .parrafoStyle span {
   font-weight: bold;
 }
-.sectionStyle .sedeStyle {
+
+.sedeStyle {
   display: flex;
   padding: 20px;
   align-items: center;
   font-size: 150%;
 }
-.sectionStyle .sedeStyle iframe {
+.sedeStyle iframe {
   padding: 20px;
   margin-left: 20px;
 }
